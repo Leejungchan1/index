@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            border: 1px solid red;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .list {}
+
+        .list li {
+            float: left;
+        }
+
+        .list li a {
+            display: block;
+            padding: 20px;
+            background-color: wheat;
+        }
+
+        .clear_fix::before,
+        .clear_fix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .box1 {
+            background-color: teal;
+            width: 300px;
+            float: left;
+        }
+
+        .box2{
+            width: 500px;
+            height: 150px;
+            background-color: tomato;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="list clear_fix">
+        <li><a href="#">445465</a></li>
+        <li><a href="#">445465</a></li>
+        <li><a href="#">445465</a></li>
+        <li><a href="#">445465</a></li>
+        <li><a href="#">445465</a></li>
+        <li><a href="#">445465</a></li>
+    </ul>
+
+    <div class="box1">
+        sasassasasasasasa
+    </div>
+    <div class="box2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio laudantium accusamus aperiam
+        debitis quidem mollitia ad voluptatibus fugit, nam, ut provident esse magnam explicabo quis quisquam tenetur
+        officia officiis minus!</div>
+</body>
+
+</html>
