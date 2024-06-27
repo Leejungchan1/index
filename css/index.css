@@ -317,7 +317,7 @@ li.in_img5 a{
     /* border: 1px solid red; */
     position: fixed;
     left: calc(50% + (1168px / 2) + 20px);
-    top: 500px;
+    top: 350px;
 }
 
 .top.pos{
