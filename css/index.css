@@ -232,23 +232,36 @@ html,body{
     height: 100%;
     /* background-color: aqua; */
     margin: 0 auto;
-    padding: 20px;
+    padding: 50px 0;
 }
 
 .inner_1{
     float: left;
-    margin-right: 20px;
+    margin-right: 100px;
 }
 
 .inner_1 ul{}
+
 .inner_1 ul li{}
-.inner_1 ul li a{}
+
+.inner_1 ul li a{
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+}
+.inner_1 ul li a span{
+    color: yellow;
+}
 
 .inner_2{
     float: left;
 }
 
-.inner_2 p{}
+.inner_2 p{
+    padding: 5px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
 
 
 
@@ -256,15 +269,67 @@ html,body{
     float: right;
 }
 
-.inner_3 a{}
-.inner_3 a .in_img1{}
-.inner_3 a .in_img2{}
-.inner_3 a .in_img3{}
-.inner_3 a .in_img4{}
+.inner_3 li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
 
+.inner_3 li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(../img/10027.png)no-repeat;
+    background-position: 0 0;
+    text-indent: -9999px;
+}
 
+.inner_3 li:nth-child(5){
+    width: 120px;
+    height: 100%;
+}
 
+li.in_img1 a{
+}
+li.in_img2 a{
+    background-position: 0 -40px ;
+}
+li.in_img3 a{
+    background-position: 0 -80px ;
+}
+li.in_img4 a{
+    background-position: 0 -120px ;
+}
+li.in_img5 a{
+    width: 100px;
+    height: 80px;
+    background-image: url(../img/10020.png)!important;
+    background-size: 100%;
+    
+}
 
+/* top 영역 */
+
+.top{
+    width: 120px;
+    height: 100%;
+    /* border: 1px solid red; */
+    position: fixed;
+    left: calc(50% + (1168px / 2) + 20px);
+    top: 500px;
+}
+
+.top.pos{
+    /* position: sticky;
+    bottom: 300px; */
+}
+
+.top{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
 
 
 
