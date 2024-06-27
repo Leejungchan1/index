@@ -286,7 +286,7 @@ html,body{
 }
 
 .inner_3 li:nth-child(5){
-    width: 120px;
+    width: 100px;
     height: 100%;
 }
 
@@ -325,10 +325,11 @@ li.in_img5 a{
     bottom: 300px; */
 }
 
-.top{
+.top a{
     display: block;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 
